@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to left,red,orange);
+}
+.calci{
+    width: 300px;
+    border: 5px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+
+}
+.operator{
+    margin: auto;
+    padding: 20px;
+    width: 70px;
+    background-color: white;
+    border-radius:10px;
+    font-weight: 100;
+    transition: .25px;
+    font-weight: 800;
+    font-size: 20px;
+}
+#display{
+    width: 290px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 800;
+}
+#equal{
+    width: 144px;
+}
+:hover.operator{
+    background-color: greenyellow;
+}
+h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 50px;
+}
+h2{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
